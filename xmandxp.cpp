@@ -12,8 +12,8 @@ int main() {
     regex xp(R"(XP_.*?[\n;])");
     smatch resm, resp;
     cout<<"running"<<endl;
-    freopen("Pop_tri.txt", "r", stdin);
-    freopen("T0.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);//input filename
+    freopen("output.txt", "w", stdout);//output filename
     string line;
     set < pair<string, string>> st;
     while (getline(cin, line))
